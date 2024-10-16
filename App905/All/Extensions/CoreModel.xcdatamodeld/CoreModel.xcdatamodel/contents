@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="IdeasModel" representedClassName="IdeasModel" syncable="YES" codeGenerationType="class">
+        <attribute name="idCat" optional="YES" attributeType="String"/>
+        <attribute name="idDescr" optional="YES" attributeType="String"/>
+        <attribute name="idRef1" optional="YES" attributeType="String"/>
+        <attribute name="idRef2" optional="YES" attributeType="String"/>
+        <attribute name="idRef3" optional="YES" attributeType="String"/>
+        <attribute name="idTitle" optional="YES" attributeType="String"/>
+        <attribute name="idType" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ProjModel" representedClassName="ProjModel" syncable="YES" codeGenerationType="class">
+        <attribute name="prCat" optional="YES" attributeType="String"/>
+        <attribute name="prDescr" optional="YES" attributeType="String"/>
+        <attribute name="prPhoto" optional="YES" attributeType="String"/>
+        <attribute name="prTitle" optional="YES" attributeType="String"/>
+        <attribute name="prTool1" optional="YES" attributeType="String"/>
+        <attribute name="prTool2" optional="YES" attributeType="String"/>
+        <attribute name="prTool3" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="WorkModel" representedClassName="WorkModel" syncable="YES" codeGenerationType="class">
+        <attribute name="woCat" optional="YES" attributeType="String"/>
+        <attribute name="woDescr" optional="YES" attributeType="String"/>
+        <attribute name="woTitle" optional="YES" attributeType="String"/>
+        <attribute name="woTool1" optional="YES" attributeType="String"/>
+        <attribute name="woTool2" optional="YES" attributeType="String"/>
+        <attribute name="woTool3" optional="YES" attributeType="String"/>
+        <attribute name="woTool4" optional="YES" attributeType="String"/>
+        <attribute name="woType" optional="YES" attributeType="String"/>
+    </entity>
+</model>

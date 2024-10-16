@@ -1,0 +1,55 @@
+//
+//  U1.swift
+//  App905
+//
+//  Created by IGOR on 14/10/2024.
+//
+
+import SwiftUI
+
+struct U1: View {
+    var body: some View {
+
+        ZStack {
+            
+            Color.black
+                .ignoresSafeArea()
+            
+            VStack {
+                
+                Image("U1")
+                    .resizable()
+            }
+            .ignoresSafeArea()
+            
+            VStack {
+                
+                Text("Best practices for progress in any direction")
+                    .foregroundColor(.white)
+                    .font(.system(size: 28, weight: .bold))
+                    .multilineTextAlignment(.center)
+                
+                Spacer()
+                
+                NavigationLink(destination: {
+                    
+                    Reviews()
+                        .navigationBarBackButtonHidden()
+                    
+                }, label: {
+                    
+                    Text("Next")
+                        .foregroundColor(.white)
+                        .font(.system(size: 15, weight: .semibold))
+                        .frame(width: 220, height: 50)
+                        .background(RoundedRectangle(cornerRadius: 25.0).fill(Color("prim")))
+                })
+            }
+            .padding()
+        }
+    }
+}
+
+#Preview {
+    U1()
+}
