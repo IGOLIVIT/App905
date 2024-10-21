@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7809B9462CC63D2B00D089BF /* Sam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7809B9452CC63D2B00D089BF /* Sam.swift */; };
+		7809B9482CC63D3300D089BF /* Drive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7809B9472CC63D3300D089BF /* Drive.swift */; };
+		7809B94A2CC63D3C00D089BF /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7809B9492CC63D3C00D089BF /* Window.swift */; };
 		78BAAE1D2CBDA5750017319E /* App905App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BAAE1C2CBDA5750017319E /* App905App.swift */; };
 		78BAAE1F2CBDA5750017319E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BAAE1E2CBDA5750017319E /* ContentView.swift */; };
 		78BAAE212CBDA5760017319E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78BAAE202CBDA5760017319E /* Assets.xcassets */; };
@@ -36,6 +39,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7809B9452CC63D2B00D089BF /* Sam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sam.swift; sourceTree = "<group>"; };
+		7809B9472CC63D3300D089BF /* Drive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drive.swift; sourceTree = "<group>"; };
+		7809B9492CC63D3C00D089BF /* Window.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
 		78BAAE192CBDA5750017319E /* App905.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App905.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78BAAE1C2CBDA5750017319E /* App905App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App905App.swift; sourceTree = "<group>"; };
 		78BAAE1E2CBDA5750017319E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -243,6 +249,9 @@
 				78BAAE572CBDB6CC0017319E /* CoreDataStack.swift */,
 				78BAAE592CBDB6D40017319E /* Array.swift */,
 				78BAAE5B2CBDB6E90017319E /* CoreModel.xcdatamodeld */,
+				7809B9452CC63D2B00D089BF /* Sam.swift */,
+				7809B9472CC63D3300D089BF /* Drive.swift */,
+				7809B9492CC63D3C00D089BF /* Window.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -335,11 +344,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				78BAAE1F2CBDA5750017319E /* ContentView.swift in Sources */,
+				7809B94A2CC63D3C00D089BF /* Window.swift in Sources */,
 				78BAAE612CBDBAFD0017319E /* IdeasViewModel.swift in Sources */,
 				78BAAE1D2CBDA5750017319E /* App905App.swift in Sources */,
 				78BAAE422CBDAF7E0017319E /* U1.swift in Sources */,
 				78BAAE402CBDAF710017319E /* R3.swift in Sources */,
 				78BAAE502CBDAFAE0017319E /* ProjectsView.swift in Sources */,
+				7809B9482CC63D3300D089BF /* Drive.swift in Sources */,
 				78BAAE3C2CBDAF670017319E /* R1.swift in Sources */,
 				78BAAE442CBDAF840017319E /* Reviews.swift in Sources */,
 				78BAAE672CBE5B490017319E /* AddWork.swift in Sources */,
@@ -355,6 +366,7 @@
 				78BAAE4A2CBDAF960017319E /* SettingsView.swift in Sources */,
 				78BAAE5D2CBDB6E90017319E /* CoreModel.xcdatamodeld in Sources */,
 				78BAAE4E2CBDAFA70017319E /* WorkshopView.swift in Sources */,
+				7809B9462CC63D2B00D089BF /* Sam.swift in Sources */,
 				78BAAE4C2CBDAF9E0017319E /* IdeasView.swift in Sources */,
 				78BAAE5F2CBDBA5B0017319E /* WorkshopViewModel.swift in Sources */,
 			);
@@ -504,7 +516,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.App905;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -543,7 +555,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.App905;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;

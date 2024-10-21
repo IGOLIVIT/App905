@@ -17,17 +17,14 @@ struct LoadingView: View {
             
             VStack {
                 
-                Image("Lav")
+                Image("Llogo")
                     .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 200)
                     .ignoresSafeArea()
             }
             
             VStack {
-                
-                Text("Up Hobby")
-                    .foregroundColor(.black)
-                    .font(.system(size: 56, weight: .black))
-                    .padding(.top, 200)
                 
                 Spacer()
                 
