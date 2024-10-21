@@ -14,7 +14,7 @@ struct WebSystem: View {
         
         ZStack {
             
-            Color("bg")
+            Color.black
             
             WControllerRepresentable()
         }

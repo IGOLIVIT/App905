@@ -32,19 +32,19 @@ struct Reviews: View {
                 
                 Spacer()
                 
-                NavigationLink(destination: {
-                    
-                    Not()
-                        .navigationBarBackButtonHidden()
-                    
-                }, label: {
-                    
-                    Text("Next")
-                        .foregroundColor(.white)
-                        .font(.system(size: 15, weight: .semibold))
-                        .frame(width: 220, height: 50)
-                        .background(RoundedRectangle(cornerRadius: 25.0).fill(Color("prim")))
-                })
+//                NavigationLink(destination: {
+//                    
+//                    Not()
+//                        .navigationBarBackButtonHidden()
+//                    
+//                }, label: {
+//                    
+//                    Text("Next")
+//                        .foregroundColor(.white)
+//                        .font(.system(size: 15, weight: .semibold))
+//                        .frame(width: 220, height: 50)
+//                        .background(RoundedRectangle(cornerRadius: 25.0).fill(Color("prim")))
+//                })
             }
             .padding()
         }
